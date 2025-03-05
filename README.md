@@ -24,3 +24,48 @@ Best-selling product identification
 Most profitable product determination
 
 GitHub Submission: The final project is submitted via a GitHub repository
+
+
+Process for CSV Upload & Processing in Django
+
+Upload CSV File
+
+User selects a CSV file and clicks the upload button.
+
+The file is sent to the backend using a Django form.
+
+File Validation
+
+The backend verifies the file format (only .csv files allowed).
+
+If invalid, an error message is displayed.
+
+Saving File
+
+The uploaded CSV file is stored in the media directory.
+
+Processing CSV with Celery
+
+A Celery task is triggered asynchronously to process the file.
+
+Data is read from the CSV file and inserted into the database.
+
+Calculations & Analysis
+
+Sum, average, count, total revenue, best-selling product, and most profitable product are calculated from the uploaded data.
+
+Displaying Processed Data
+
+The processed data is retrieved from the database.
+
+Search functionality allows users to filter results dynamically.
+
+Error Handling & Logging
+
+Any issues during upload or processing are logged for debugging.
+
+Users receive appropriate error messages if something goes wrong.
+
+Final Submission
+
+The project, including code and documentation, is pushed to GitHub.
