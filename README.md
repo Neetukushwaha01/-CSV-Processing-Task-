@@ -69,3 +69,8 @@ Users receive appropriate error messages if something goes wrong.
 Final Submission
 
 The project, including code and documentation, is pushed to GitHub.
+
+front page  looking liks this --
+http://127.0.0.1:8000/
+![image](https://github.com/user-attachments/assets/9198e925-8796-4801-ad22-1edd2107cb5f)
+
